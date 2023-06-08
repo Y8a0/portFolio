@@ -5,6 +5,9 @@ body{
    align-items: center;
  
 }
+#mpo{
+    margin-top: 3rem;
+}
 #wxc{
     color: white
 }
@@ -70,7 +73,7 @@ ul li a:hover{
     margin-left: 5rem;
     margin-top: 13rem;
 }
-.gra1{
+.bnb{
     font-size: 47px;
     color: rgb(31, 31, 53);
 }
@@ -146,7 +149,7 @@ ul li a:hover{
    border-radius: 5px;
    margin-right: 15px;
 }
-.gridim1{
+.meme-photo1{
     width: 19rem; 
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgb(94, 93, 93);
@@ -160,7 +163,7 @@ ul li a:hover{
     height: 13.7rem;
     margin-top: -5px;
 }
-.see{
+.meme-btn{
     width: 100px;
     height:50px ;
     color: #ffff;
@@ -171,7 +174,7 @@ ul li a:hover{
     margin-top: 10px;
     font-size: 17px;
 }
-.see:hover{
+.meme-btn:hover{
     background-color: #C5E9DA;
 }
 .span1{
@@ -186,7 +189,7 @@ ul li a:hover{
 .span4{
     margin-top: 80px;
 }
-.success span{
+.meme1 span{
    font-size: 12px;
    color: #FF6B00;
    background-color: #EBEFF4;
@@ -213,7 +216,7 @@ ul li a:hover{
     height: 13.7rem;
     margin-top: -5px;
 }
-.gridim2{
+.meme-photo2{
     width: 19rem;
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgb(89, 88, 88);
@@ -239,7 +242,7 @@ ul li a:hover{
     height: 14.7rem;
     margin-top: -5px;
 }
-.gridim3{
+.meme-photo3{
     width: 19rem;
     height: 13.3rem;
     border-radius: 10px;
@@ -266,7 +269,7 @@ ul li a:hover{
     height: 14.9rem;
     margin-top: -5px;
 }
-.gridim4{
+.meme-photo4{
     width: 19rem;
     height: 13rem;
     border-radius: 10px;
@@ -293,7 +296,7 @@ ul li a:hover{
     width: 19rem;
     margin-top: -5px;
 }
-.gridim5{
+.meme-photo5{
     width: 19rem;
     height: 13rem;
     border-radius: 10px;
@@ -320,7 +323,7 @@ ul li a:hover{
     height: 14.9rem;
     margin-top: -5px;
 }
-.gridim6{
+.meme-photo6{
     width: 19rem;
     height: 13rem;
     border-radius: 10px;
@@ -574,7 +577,7 @@ a{
         margin-top: 10px;
         align-items: center;
     }
-    .gridim1, .gridim2, .gridim3, .gridim4, .gridim5, .gridim6{
+    .meme-photo1, .meme-photo2, .meme-photo3, .meme-photo4, .meme-photo5, .meme-photo6{
         width: calc(100%);
         height: 20vh;
     } 
@@ -644,11 +647,11 @@ a{
     padding: 3px;
     font-size: 12px;
 }
-.success span{
+.meme1 span{
     padding: 3px;
     height: 58px;
     font-size: 12px;
-}.see{
+}.meme-btn{
     height: 35px;
     font-size: 15px;
 }
@@ -667,7 +670,7 @@ a{
       align-items: center;
       position: relative;
     } 
-    .gra1{
+    .bnb{
         text-align: center;
     }
     .gra2{
@@ -779,27 +782,27 @@ a{
         height: 30rem;
         border: none;
     }
-    .gridim1{
+    .meme-photo1{
         width: 16em;
     }
     .card-body{
         width: 16rem;
         height: 16.4rem;
     }
-    .see{
+    .meme-btn{
         width: 120px;
         height: 50px;
         font-size: 20px;
         margin-bottom:40px;
     }
-    .success, h1{
+    .meme1, h1{
         margin-bottom: -20px;
         /* font-size: 40px; */
     }
-    .success, .see{
+    .meme1, .meme-btn{
         margin-top: 40px;
     }
-    .success span{
+    .meme1 span{
         padding: 6px;
        font-size: 12px;
     }
@@ -816,7 +819,7 @@ a{
         height: 30rem;
         border: none;
     }
-    .gridim2{
+    .meme-photo2{
         width: 16rem;
     }
     .card-body2{
@@ -828,7 +831,7 @@ a{
         height: 30rem;
         border: none;
     }
-    .gridim3{
+    .meme-photo3{
         width: 16rem;
         height: 15rem;
     }
@@ -844,7 +847,7 @@ a{
         height: 32rem;
         border: none;
     } 
-    .gridim4{
+    .meme-photo4{
         width: 16rem;
         height: 14rem;
     }
@@ -857,7 +860,7 @@ a{
         height: 33rem;
         border: none;
     } 
-    .gridim5{
+    .meme-photo5{
         width: 20rem;
         height: 14rem;
        
@@ -872,7 +875,7 @@ a{
         height: 30rem;
         border: none;
     }
-    .gridim6{
+    .meme-photo6{
         width: 19rem;
     }
     .card-body6{
@@ -1068,7 +1071,7 @@ a{
       align-items: center;
       position: relative;
     } 
-    .gra1{
+    .bnb{
         text-align: center;
     }
     .gra2{
@@ -1180,27 +1183,27 @@ a{
         height: 30rem;
         border: none;
     }
-    .gridim1{
+    .meme-photo1{
         width: 16em;
     }
     .card-body{
         width: 16rem;
         height: 16.4rem;
     }
-    .see{
+    .meme-btn{
         width: 120px;
         height: 50px;
         font-size: 20px;
         margin-bottom:40px;
     }
-    .success, h1{
+    .meme1, h1{
         margin-bottom: -20px;
         /* font-size: 40px; */
     }
-    .success, .see{
+    .meme1, .meme-btn{
         margin-top: 40px;
     }
-    .success span{
+    .meme1 span{
         padding: 6px;
        font-size: 12px;
     }
@@ -1217,7 +1220,7 @@ a{
         height: 30rem;
         border: none;
     }
-    .gridim2{
+    .meme-photo2{
         width: 16rem;
     }
     .card-body2{
@@ -1229,7 +1232,7 @@ a{
         height: 30rem;
         border: none;
     }
-    .gridim3{
+    .meme-photo3{
         width: 16rem;
         height: 15rem;
     }
@@ -1245,7 +1248,7 @@ a{
         height: 32rem;
         border: none;
     } 
-    .gridim4{
+    .meme-photo4{
         width: 16rem;
         height: 14rem;
     }
@@ -1258,7 +1261,7 @@ a{
         height: 33rem;
         border: none;
     } 
-    .gridim5{
+    .meme-photo5{
         width: 20rem;
         height: 14rem;
        
@@ -1273,7 +1276,7 @@ a{
         height: 30rem;
         border: none;
     }
-    .gridim6{
+    .meme-photo6{
         width: 19rem;
     }
     .card-body6{
