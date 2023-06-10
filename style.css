@@ -7,6 +7,9 @@ body{
 }
 #mpo{
     margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
 }
 #wxc{
     color: white
@@ -53,6 +56,7 @@ ul li a:hover{
 }
 .les2{
     display: flex;
+    justify-content: center;
     text-align: center;
 }
 .section1 ul li a
@@ -91,11 +95,13 @@ ul li a:hover{
     width: 100%;
 }
 .img{
-    margin-top: 18%;
-    margin-bottom: 22%;
+    margin-top: 8%;
+    margin: auto;
+    margin-bottom: 20%;
 }
-.img, ul ,li{
-    gap: 15px;
+.img, ul ,li img{
+    padding: 1rem;
+    width: 35px;
 }
 
 .btn{
@@ -441,10 +447,6 @@ ul li a:hover{
     text-align: center;
     
 }
-.tttt{
-    margin-top: 70px;
-    font-size: 25px;
-}
 .input{
     margin-left: 50px;
 }
@@ -461,12 +463,13 @@ ul li a:hover{
     outline-color: #FF6B00;
 }
 #inp12{
-    width: 15.7rem;
+    width: 14.4rem;
     height: 30px;
     border-radius: 3px;
     border: 1px solid;
     border-color:#EBF0EE ;
     padding: 10px;
+    margin-left: 1rem;
 }
 
 #inp13{
@@ -508,6 +511,9 @@ ul li a:hover{
 
 .footer{
     text-align: center;
+}
+.footer a p{
+    font-size: 28px;
 }
 .mail{
     color: gray;
@@ -601,9 +607,7 @@ a{
         align-items: center;
     }
     .para{
-       width: 70%;
-       padding-left: 110px;
-       
+         
     }
     .gn4{
         flex-direction: column;
@@ -700,8 +704,9 @@ a{
        margin: auto;
     }  
     .image1{
+        width: calc(100%);
         height: 400px;
-        margin-bottom: 13rem;
+        margin-bottom: -2rem;
     }
     .text3{
         text-align: center;
@@ -725,9 +730,10 @@ a{
     #wxc{
         color: black;
         font-size: 30px;
-        position: absolute;
-        top: 1rem;
-        right: 2rem;
+        position: relative;
+        top: -1.5rem;
+        left: 8rem;
+        margin-bottom: -12rem;
     }
     #mpo ul li{
         padding: 1rem;
@@ -737,7 +743,6 @@ a{
     }
     .section1{
         width: calc(100%);
-        background-color: #FF6B00;
     }
     .gn1{
         flex-direction: column;
@@ -756,8 +761,10 @@ a{
         display: block;
         margin-left:  110px;
         margin-top: 30px;
+        margin-bottom: 2rem;
     }
     .petite3{
+        margin-bottom: -5rem;
         display: block;
         margin-left:  180px;
         margin-top: 30px;
@@ -765,7 +772,7 @@ a{
     .para{
         font-size: 20px;
         width: 70%;
-        padding-left: 95px;
+        margin: auto;
     }
     .solid{
         display: none;
@@ -781,6 +788,7 @@ a{
         width: 16rem;
         height: 30rem;
         border: none;
+        margin-bottom: -5rem;
     }
     .meme-photo1{
         width: 16em;
@@ -840,6 +848,7 @@ a{
     }
     .deuxieme{
         flex-direction: column;
+        margin-top: -1rem;
     } 
     .card4{
         margin-top: 50px;
@@ -893,14 +902,19 @@ a{
         font-size: 40px;
     }
     .tttt{
-        font-size: 26px;
-        width: 70%;
-        padding-left: 70px;
+        font-size: 24px;
+        padding: 0;
+        margin: auto;
+        margin-top: 2.5rem;
+        width: calc(90%);
     }
     .text2{
         text-align: center;
         padding: 5px;
         margin-top: -10px;
+    }
+    .text3{
+        width: calc(100%);
     }
     .card7{
         width: 18rem;
@@ -917,6 +931,10 @@ a{
         width: 18rem;
         margin-top: 40px;
         margin-left: 5px;
+    }
+    .gra3{
+        width: calc(100%);
+        margin-top: -2rem;
     }
     .gn4{
         flex-direction: column;
@@ -971,98 +989,6 @@ a{
 
                  
 }
-/* @media screen and (max-width:425px){
-    #hamburger{
-        display: none;
-    }
-     #hamburger:target{
-        display: block;
-    }
-    #wxc{
-        color: black;
-        font-size: 30px;
-        position: absolute;
-        top: 1rem;
-        right: 2rem;
-    }
-    #mpo ul li{
-        padding: 1rem;
-    }
-    #mpo ul li a strong{
-        color: white;
-    }
-    .section1{
-        width: calc(100%);
-        background-color: #FF6B00;
-    }
-    .text1{
-        margin-top: 60px;
-    }
-    .les2{
-        flex-direction: column;
-    }
-    .texttt{
-       text-align: center;
-      font-size: 20px;
-    }
-    .petite1, .petite2, .petite3{
-        display: block;
-        margin-left: 140px;
-    }
-    .image1{
-        width: 400px;
-    }
-    .btn{
-        display: none;
-    }
-    .seul{
-        margin-top: 400px;
-    }
-    .para{
-       margin-left: -40px;
-    }
-    .input{
-        margin-top: 40px;
-       align-items: center;
-       
-      
-    }
-    .inpu{
-        display: none;
-    }
-    #dark{
-        display: block;
-        width: 310px;
-        height: 40px;
-        border: 1px solid;
-        border-radius: 3px;
-        border-color:#EBF0EE ;
-    }
-    #inp13{
-        margin-top: 20px;
-        width: 310px;
-    }
-    #inp14{
-        margin-top: 20px;
-        width: 310px;
-    }
-    .btn1{
-        margin-top: 50px;
-        margin-left: 100px;
-        font-size: 20px;
-        width: 120px;
-        height: 50px;
-    }
-    .mail{
-        display: none;
-    }
-    .maill{
-        display: block;
-    }
-    hr{
-        margin-top: 50px;
-    }
-} */
 
 @media screen and (max-width:375px) {
     .mode{
@@ -1101,8 +1027,9 @@ a{
        margin: auto;
     }  
     .image1{
+        width: calc(100%);
         height: 400px;
-        margin-bottom: 13rem;
+        
     }
     .text3{
         text-align: center;
@@ -1126,9 +1053,10 @@ a{
     #wxc{
         color: black;
         font-size: 30px;
-        position: absolute;
-        top: 1rem;
-        right: 2rem;
+        position: relative;
+        top: -1.5rem;
+        left: 8rem;
+        margin-bottom: -12rem;
     }
     #mpo ul li{
         padding: 1rem;
@@ -1138,7 +1066,6 @@ a{
     }
     .section1{
         width: calc(100%);
-        background-color: #FF6B00;
     }
     .gn1{
         flex-direction: column;
@@ -1157,8 +1084,10 @@ a{
         display: block;
         margin-left:  110px;
         margin-top: 30px;
+        margin-bottom: 2rem;
     }
     .petite3{
+        margin-bottom: -5rem;
         display: block;
         margin-left:  180px;
         margin-top: 30px;
@@ -1166,7 +1095,7 @@ a{
     .para{
         font-size: 20px;
         width: 70%;
-        padding-left: 95px;
+        margin: auto;
     }
     .solid{
         display: none;
@@ -1182,9 +1111,11 @@ a{
         width: 16rem;
         height: 30rem;
         border: none;
+        margin-bottom: -5rem;
     }
     .meme-photo1{
-        width: 16em;
+        width: calc(100% + 10%);
+        margin-left: -5px;
     }
     .card-body{
         width: 16rem;
@@ -1221,7 +1152,8 @@ a{
         border: none;
     }
     .meme-photo2{
-        width: 16rem;
+        width: calc(100% + 10%);
+        margin-left: -12px;
     }
     .card-body2{
         height: 17.9rem;
@@ -1233,8 +1165,8 @@ a{
         border: none;
     }
     .meme-photo3{
-        width: 16rem;
-        height: 15rem;
+        width: calc(100% + 10%);
+        margin-left: -1.5rem;
     }
     .card-body3{
         height: 14.9rem;
@@ -1249,22 +1181,22 @@ a{
         border: none;
     } 
     .meme-photo4{
-        width: 16rem;
-        height: 14rem;
+        width: calc(100% + 10%);
+        margin-left: -0.2rem;
     }
     .card-body4{
         height: 17.9rem;
     }
     .card5{
+        background-color: transparent;
         margin-top: 50px;
         width: 20rem;
         height: 33rem;
         border: none;
     } 
     .meme-photo5{
-        width: 20rem;
-        height: 14rem;
-       
+        width: calc(95%);
+        margin-left: -0.5rem;
     }
     .card-body5{
         height: 18.9rem;
@@ -1277,7 +1209,13 @@ a{
         border: none;
     }
     .meme-photo6{
-        width: 19rem;
+        width: calc(98%);
+        margin-left: -0.5rem;
+        
+    }
+    .meme-photo7{
+        width: calc(100%);
+        
     }
     .card-body6{
         height: 17rem;
@@ -1294,14 +1232,19 @@ a{
         font-size: 40px;
     }
     .tttt{
-        font-size: 26px;
-        width: 70%;
-        padding-left: 70px;
+        font-size: 24px;
+        padding: 0;
+        margin: auto;
+        margin-top: 2.5rem;
+        width: calc(60%);
     }
     .text2{
         text-align: center;
         padding: 5px;
         margin-top: -10px;
+    }
+    .text3{
+        width: calc(100%);
     }
     .card7{
         width: 18rem;
@@ -1318,6 +1261,10 @@ a{
         width: 18rem;
         margin-top: 40px;
         margin-left: 5px;
+    }
+    .gra3{
+        width: calc(100%);
+        margin-top: -2rem;
     }
     .gn4{
         flex-direction: column;
@@ -1368,7 +1315,28 @@ a{
     }
     .maill{
         display: block;
-    }
-
-                 
+    }                 
+}
+.inpu input::placeholder{
+    padding-left: 0.8rem;
+}
+.inpu input{
+    margin-bottom: 1rem;
+}
+.tttt{
+    margin-top: 8rem;
+    font-size: 28px;
+}
+#cont{
+    font-size: 40px;
+    margin: 0;
+}
+footer .bat ul{
+    margin: auto;
+}
+footer .bat ul li img{
+    width: 25px;
+}
+@media screen and (max-width:1440px){
+    
 }
