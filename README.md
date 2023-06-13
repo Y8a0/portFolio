@@ -45,6 +45,7 @@ Les `codes couleurs` sont donnés dans le fichier `interfaces`.
 ### Fonts
 
 - Family: [Inter](https://fonts.google.com/specimen/Inter)
+
 - Weights: 400, 600
 
 ## Dimension des écrans
